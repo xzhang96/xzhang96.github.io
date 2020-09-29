@@ -12,6 +12,7 @@ body {
     animation: hide 0.3s linear 4s 1 forwards;
 }
 .navbar {
+    z-index: 1;
     background-color: #333;
     font-size: 20px;
     padding: 20px;
@@ -20,8 +21,12 @@ body {
 .navbar-brand {
     font-size: 30px;
 }
-.nav-item {
+.nav-item, .navbar-brand {
     padding-left: 10px;
+    padding-right: 10px
+}
+.nav-item:hover, .navbar-brand:hover {
+    background-color: teal;
 }
 .wrapper {
     padding-top: 50vh;
@@ -47,7 +52,10 @@ body {
     50% {border-color: orange }
 }
 @keyframes hide {
-    to { opacity: 0; }
+    to { 
+        opacity: 0;
+        z-index: -999999;
+    }
 }
 #home {
     height: 100%;
