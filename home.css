@@ -61,9 +61,9 @@ body {
     height: 100%;
     padding-top: 30vh;
 }
-#bio {
-    padding-top: 20vh;
-    padding-bottom: 10vh;
+#bio, #project, #contact {
+    padding-top: 15vh;
+    padding-bottom: 20vh;
 }
 hr {
     border-color: lightgray;
