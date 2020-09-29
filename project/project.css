@@ -15,20 +15,12 @@ body {
 .nav-item {
     padding-left: 10px;
 }
-#contact {
+#project {
+    height: 100vh;
     padding-top: 15vh;
 }
 hr {
     border-color: lightgray;
-}
-table {
-    width: 100%;
-    text-align: center;
-    padding: 50px;
-    margin-bottom: 100px;
-}
-table a {
-    color: #fff;
 }
 .footer {
     background-color: #333;
