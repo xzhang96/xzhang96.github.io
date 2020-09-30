@@ -60,6 +60,7 @@ body {
 #home {
     height: 100%;
     padding-top: 30vh;
+    padding-bottom: 20vh;
 }
 #bio, #project, #contact {
     padding-top: 15vh;
