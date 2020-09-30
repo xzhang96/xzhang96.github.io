@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="height=devicd-height, width=device-width, initial-scale=1.0">
         <Title>Xinyan's Webpage</Title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -18,7 +18,7 @@
         </div>
         <div class="theme-showcase" role="main">
             <!-------------------------------- Start Navbar section -------------------------------->
-            <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <nav class="large-nav navbar navbar-expand-sm navbar-dark fixed-top">
             <a class="navbar-brand" href="/">&lt;/xyz&gt;</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -32,28 +32,45 @@
                 </li>
             </ul>
             </nav>
+            <nav class="small-nav navbar-dark fixed-top">
+                <ul class="small-nav-list">
+                    <li>
+                    <a href="/" style="font-size: 20px;">&lt;/xyz&gt;</a>
+                    </li>
+                    <li>
+                    <a href="/bio/"><i class="fas fa-user-circle"></i></a>
+                    </li>
+                    <li>
+                    <a href="/project/"><i class="fas fa-file-code"></i></a>
+                    </li>
+                    <li>
+                    <a href="/contact/"><i class="fas fa-address-card"></i></a>
+                    </li>
+                </ul>
+            </nav>
             <!------------------------------------ End Navbar section ---------------------------------------->
 
             <div class="container">
 
                 <!------------------------------------ Start Home section ---------------------------------------->
-                <div id="home">
-                    <br>
-                    <h3>Hi, my name is</h3>
-                    <div style="font-size: 60px; color: teal;">Xinyan Zhang.</div>
-                    <br>
-                    <h5>You can also call me Cindy!</h5>
-                    <h5>I'm a Master student at Northeastern University majoring in Computer Science.</h5>
-                    <h5>Currently I'm based in Seattle, WA</h5>
-                    <br>
-                    <a class="btn btn-outline-info" href="/contact/" role="button">Let's Connect</a>
+                <div class="home home-sm" id="home">
+                <br>
+                <h3>Hi, my name is</h3>
+                <div style="font-size: 6vh; color: teal;">Xinyan Zhang.</div>
+                <br>
+                <h5>You can also call me Cindy!</h5>
+                <h5>I'm a Master student at Northeastern University majoring in Computer Science.</h5>
+                <h5>Currently I'm based in Seattle, WA</h5>
+                <br>
+                <a class="btn btn-outline-info" href="/contact/" role="button">Let's Connect</a>
                 </div>
+                
                 <!------------------------------------ End Home section ---------------------------------------->
                 <br>
                 <br>
                 
             </div>
-            <div class="footer">
+            <div class="footer footer-sm">
                 <p>Designed and built by Xinyan Zhang</p>
                 <p>Last Update: Sep 2020</p>
             </div>
